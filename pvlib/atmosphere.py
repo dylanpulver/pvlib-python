@@ -664,7 +664,7 @@ def windspeed_powerlaw(wind_speed_reference, height_reference,
         Exponent based on the surface type. [unitless]
 
     surface_type : string, optional
-        If supplied, overrides ``exponent``. Can be one of the following
+        Mutually exclusive with ``exponent``. Can be one of the following
         (see [1]_):
 
         * ``'unstable_air_above_open_water_surface'``
