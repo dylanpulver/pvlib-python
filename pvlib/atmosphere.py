@@ -723,7 +723,7 @@ def windspeed_powerlaw(wind_speed_reference, height_reference,
     :math:`a` [unitless] depends on the surface type. Some values found in the
     literature [1]_ for :math:`a` are:
 
-    .. table:: Values for the Hellmann-exponent
+    .. table:: Values for the Hellmann-exponent ([1_], Table 2.3).
 
        +-----------+--------------------+------------------+------------------+
        | Stability | Open water surface | Flat, open coast | Cities, villages |
